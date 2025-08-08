@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #000000;
+    color: #fff9f9;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #9c0000;
+    text-shadow: 3px 3px 6px rgb(255, 255, 255);
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    flex-grow: 1;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.menu-button {
+    border: 2px solid #9e0000;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(68, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-button:hover {
+    transform: translateY(-5px);
+    border-color: #e4e000;
+}
+
+.button-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.menu-button h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #df0505;
+}
+
+.menu-button p {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #5c5c5c;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 0;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    color: #002d81;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgb(212, 212, 212);
+}
+
+.page-header p {
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+.content {
+    background: rgba(58, 58, 58, 0.8);
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+}
+
+.content h2 {
+    color: #facc01;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.content h3 {
+    color: #fffdfd;
+    margin: 25px 0 15px 0;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 6px #000000; /* sombra preta suave */
+}
+
+.content p {
+    margin-bottom: 15px;
+    text-align: justify;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.content ul {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+.content li {
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.back-button {
+    display: inline-block;
+    background: #aa0202c4;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.back-button:hover {
+    background: #8f0000;
+    transform: translateY(-2px);
+}
+.foto-perfil {
+    max-width: 270px;
+    border-radius: 15px;
+    margin-bottom: 16px;
+}
+a:visited {
+    color: #ffe600; 
+}
+
+.foto-marvel {
+    max-width: 600px; 
+    border-radius: 15px;
+    margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto-nova-york {
+    max-width: 600px;
+    display: block;
+    margin: 16px auto;
+    border-radius: 12px;
+}
+.foto-ultron {
+    max-width: 600px;
+    display: block;
+    margin: 16px auto;
+    border-radius: 12px;
+}
+.foto-thanos {
+    max-width: 600px;
+    display: block;
+    margin: 16px auto;
+    border-radius: 12px;
+}
+.icone-insta {
+    width: 30px;
+    height: 30px;
+}
